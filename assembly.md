@@ -3,8 +3,8 @@
 Two sensor, the 9 axis IMU ICM20948 and barometric pressure sensor BMP581 need to be connected. Both are communicating through SPI.
 The board contains a 1.8V voltage buck to power the IMU.
 
-<a href="..\assets\pictures\IMU_Top_Open_with_Plugins.jpg" target="_blank">
-  <img src="..\assets\pictures\IMU_Top_Open_with_Plugins.jpg" style="width: 600px;">
+<a href=".\assets\pictures\IMU_Top_Open_with_Plugins.jpg" target="_blank">
+  <img src=".\assets\pictures\IMU_Top_Open_with_Plugins.jpg" style="width: 600px;">
 </a>
 
 ## Soldering
@@ -39,10 +39,10 @@ You will need those values for your software.
 - [Thing Plus C Pinout](https://cdn.sparkfun.com/assets/3/9/5/f/e/SparkFun_Thing_Plus_ESP32_WROOM_C_graphical_datasheet2.pdf)
 - [ESP32 S3 Pinout](https://learn.adafruit.com/assets/110811)
 
-<a href="../assets/ThingPlusC_PinOut.png" target="_blank"> 
-  <img src="../assets/ThingPlusC_PinOut.png" style="width: 500px;">
+<a href="./assets/ThingPlusC_PinOut.png" target="_blank"> 
+  <img src="./assets/ThingPlusC_PinOut.png" style="width: 500px;">
 </a>
 
-<a href="../assets/adafruit_products_Adafruit_Feather_ESP32-S3_Pinout.png" target="_blank">
-  <img src="../assets/adafruit_products_Adafruit_Feather_ESP32-S3_Pinout.png" style="width: 500px;">
+<a href="./assets/adafruit_products_Adafruit_Feather_ESP32-S3_Pinout.png" target="_blank">
+  <img src="./assets/adafruit_products_Adafruit_Feather_ESP32-S3_Pinout.png" style="width: 500px;">
 </a>

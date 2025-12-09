@@ -1,7 +1,7 @@
 # IMU MediBrick
 
-<a href="../assets/pictures/IMU_Front_Closed_without_Plugins.jpg" target="_blank" >
-  <img src="../assets/pictures/IMU_Front_Closed_without_Plugins.jpg" style="width: 500px;">
+<a href="./assets/pictures/IMU_Front_Closed_without_Plugins.jpg" target="_blank" >
+  <img src="./assets/pictures/IMU_Front_Closed_without_Plugins.jpg" style="width: 500px;">
 </a>
 
 This board is based on latest TDK IMU [ICM20948](datasheest/DS-000189-ICM-20948-v1.3.pdf) and BOSCH precision pressure sensors [BMP581](datasheets/BSS138-D.pdf) and uses SPI interface accommodating a sampling rate exceeding 1000 samples per second.
@@ -41,7 +41,6 @@ Not finalized yet
 <a href="IMU_schematic.pdf" target="_blank">
   <img src="IMU_schematic.png" style="width: 400px;">
 </a>
-
 <a href="IMU_board.pdf" target="_blank">
   <img src="IMU_board.png" style="width: 300px;">
 </a>
@@ -64,3 +63,5 @@ These are the links to the OnShape Design files, which you can edit and modify i
   - [IMU Brick Side Plate](https://cad.onshape.com/documents/eb58e78174fdb2053487973b/w/903e17c4126fb90e8782ab92/e/f4b50a954b0de64bf397a15c?renderMode=0&uiState=6712e42015dc976491f468b3)
 
 
+## Assembly &#128736;
+- [Assembly Instructions](assembly.md)
