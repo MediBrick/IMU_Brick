@@ -1,0 +1,5 @@
+{
+"description": "Activity Brick V2 interface to the Adafruit Feather ESP32-S3",
+"keywords": "Feather ESP32-S3 interface GPIO I2C SPI UART",
+"fields": {}
+}

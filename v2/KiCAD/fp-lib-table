@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ActivityBrick") (type "KiCad") (uri "${KIPRJMOD}/footprints/ActivityBrick.pretty") (options "") (descr "Activity Brick V2 project footprints"))
+	(lib (name "OSHW") (type "KiCad") (uri "${KIPRJMOD}/footprints/OSHW.pretty") (options "") (descr ""))
+)

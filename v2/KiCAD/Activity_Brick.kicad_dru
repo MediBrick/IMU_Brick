@@ -1,0 +1,13 @@
+(version 1)
+
+(rule "BMM350 fanout width"
+    (condition "A.Type == 'Track' && A.intersectsCourtyard('U5')")
+    (constraint track_width (min 0.15mm) (opt 0.15mm) (max 0.15mm)))
+
+(rule "BMM350 local copper clearance"
+    (condition "A.intersectsCourtyard('U5') && B.intersectsCourtyard('U5') && A.Type != 'Zone' && B.Type != 'Zone'")
+    (constraint clearance (min 0.15mm)))
+
+(rule "Selected solder jumper internal clearance"
+    (condition "A.Type == 'Pad' && B.Type == 'Pad' && ((A.memberOfFootprint('JP1') && B.memberOfFootprint('JP1')) || (A.memberOfFootprint('JP3') && B.memberOfFootprint('JP3')) || (A.memberOfFootprint('JP4') && B.memberOfFootprint('JP4')) || (A.memberOfFootprint('JP5') && B.memberOfFootprint('JP5')) || (A.memberOfFootprint('JP6') && B.memberOfFootprint('JP6')) || (A.memberOfFootprint('JP8') && B.memberOfFootprint('JP8')) || (A.memberOfFootprint('JP11') && B.memberOfFootprint('JP11')) || (A.memberOfFootprint('JP12') && B.memberOfFootprint('JP12')) || (A.memberOfFootprint('JP13') && B.memberOfFootprint('JP13')) || (A.memberOfFootprint('JP14') && B.memberOfFootprint('JP14')))")
+    (constraint clearance (min 0.15mm)))

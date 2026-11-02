@@ -1,0 +1,5 @@
+# KiCad local history and editor session state
+**/.history/
+*.kicad_prl
+*.lck
+~*.lck

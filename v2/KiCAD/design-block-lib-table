@@ -1,0 +1,4 @@
+(design_block_lib_table
+	(version 7)
+	(lib (name "ActivityBrick") (type "KiCad") (uri "${KIPRJMOD}/design_blocks/ActivityBrick.kicad_blocks") (options "") (descr "Activity Brick V2 reusable schematic and PCB design blocks"))
+)
